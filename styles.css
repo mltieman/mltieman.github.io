@@ -10,17 +10,36 @@ body
     display:flex;
     padding: 10px;
     margin: 10px;
-    background: lightslategray;
+    background: azure;
+    border-radius: 5px;
 }
 
 .assignment img
 {
     width:200px;
-    padding:10px;
+    margin:10;
+    border:4px solid lightseagreen;
+}
+.assignment img hover
+{
+    border: 4px solid darkmagenta;
 }
 
 h1
 {
-    color:crimson;
+    color:darkblue;
     text-align: center;
+}
+h1 :hover
+{
+    color:blueviolet;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+a :hover
+{
+    color:blueviolet;
 }
